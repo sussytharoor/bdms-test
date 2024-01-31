@@ -1,0 +1,119 @@
+body {
+  margin: 0px;
+}
+
+header {
+  border: 1px solid gray;
+}
+
+footer {
+  border: 2px solid black;
+  height: 70px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-section {
+  background-color: orange;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-text {
+  font-size: 3em;
+  color: white;
+}
+
+.nav-bar {
+  height: 30px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  word-spacing: 3px;
+}
+
+.welcome-bar {
+  height: 30px;
+  background-color: green;
+  color: white;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+}
+
+.body-text {
+  display: flex;
+  height: 500px;
+}
+
+.intro-text {
+  flex: 2.5;
+  background-color: gray;
+}
+
+.our-members {
+  flex: 1;
+  background-color: skyblue;
+}
+
+.intro-heading {
+  margin: 10px;
+  height: 75px;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 3px solid white;
+}
+
+.border-image {
+  margin: 40px;
+  border: 3px solid black;
+  height: 170px;
+  width: 130px;
+  float: inline-start;
+}
+
+.main-text {
+  font-size: 16px;
+  color: white;
+  margin: 40px;
+}
+
+.members-heading {
+  margin: 10px;
+  height: 65px;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 3px solid red;
+}
+
+.members-description {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  align-items: center;
+}
+
+.member-image {
+  border: 2px solid black;
+  height: 150px;
+  width: 110px;
+  margin-top: 10px;
+}
+
+.member-scroller {
+  margin-left: 150px;
+}
